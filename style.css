@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgb(7, 111, 248), rgb(250, 9, 9), rgb(233, 236, 6), rgba(19, 241, 11, 0.938));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 55vh;
+    width: 55vw;
+    background: #0B7AE7;
+    box-shadow: 2px 5px 20px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    height: 60%;
+    width: 80%;
+    background: cornsilk;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn {
+    width: 80%;
+    height: 10%;
+    background: #0BDD8C;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    outline-style: none;
+}
+
+.twitter {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 74%;
+    top: 25%;
+}
+
+.text {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.author {
+    margin-top: 2rem;
+    color: darkblue;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Courier Prime', monospace;
+}
