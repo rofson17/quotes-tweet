@@ -20,7 +20,7 @@ header {
     height: 55vh;
     width: 55vw;
     background: #0B7AE7;
-    box-shadow: 2px 5px 20px #000;
+    box-shadow: 2px 5px 10px #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,4 +74,14 @@ header {
     text-transform: capitalize;
     font-weight: 600;
     font-family: 'Courier Prime', monospace;
+}
+@media(max-width:640px){
+    .author{
+        margin-top: 0;
+    }
+
+        .text{
+            font-size:1rem;
+        
+    }
 }
